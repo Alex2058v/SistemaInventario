@@ -24,16 +24,3 @@ El proyecto usa por defecto LocalDB:
 ```csharp
 Server=(localdb)\MSSQLLocalDB;Database=SistemaInventario;Trusted_Connection=True;TrustServerCertificate=True;
 ```
-
-Si usas SQL Server Express, modificar `Datos/ConexionBD.cs` y usar:
-
-```csharp
-Server=.\SQLEXPRESS;Database=SistemaInventario;Trusted_Connection=True;TrustServerCertificate=True;
-```
-
-## Generar ejecutable
-
-1. Abrir el proyecto en Visual Studio.
-2. Cambiar de Debug a Release.
-3. Ir a Build > Build Solution.
-4. El ejecutable estará en `bin\Release\net10.0-windows\`.
