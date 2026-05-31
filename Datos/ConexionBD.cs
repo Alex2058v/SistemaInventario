@@ -4,7 +4,7 @@ namespace SistemaInventario.Datos
 {
     public static class ConexionBD
     {
-        // Si en tu computadora usas SQL Server Express, cambia la línea por:
+        // Si se usa SQL Server Express
         // @"Server=.\SQLEXPRESS;Database=SistemaInventario;Trusted_Connection=True;TrustServerCertificate=True;"
         private const string CadenaConexion = @"Server=(localdb)\MSSQLLocalDB;Database=SistemaInventario;Trusted_Connection=True;TrustServerCertificate=True;";
 
